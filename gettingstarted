@@ -1,0 +1,5 @@
+docker images
+docker pull jenkins/jenkins
+docker-compose up -d
+docker ps
+docker logs -f jenkins
